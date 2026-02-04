@@ -3,6 +3,14 @@ using namespace std;
 
 // TODO: Write a function template myMax
 
+template<typename T>
+T myMax(T a, T b) {
+  if (a > b)
+    return a;
+  return b;
+}
+
+
 int main() {
     cout << myMax(3, 7) << endl;
     cout << myMax(3.5, 2.1) << endl;
